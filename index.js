@@ -12,7 +12,8 @@ const PASSWORD = process.env.password;
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    // origin: "http://localhost:3000",
+    origin: "https://b39-ii-capstone-foodtokengenerator-frontend.vercel.app",
   })
 );
 app.use(express.json());
